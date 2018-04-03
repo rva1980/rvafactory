@@ -1,0 +1,55 @@
+.rva-fondo 
+{
+    background-image: url("../images/fondov.png");
+    text-shadow: 0 0 16px #00ff00;
+}
+
+.rva-fondo a:hover, .rva-menu-activo, .rva-color
+{
+    color: #00ff00;
+}
+
+.rva-input:focus
+{
+    background: #00000000;
+    color: #ffffff;
+    outline: none !important;
+    border-color: #00ff00;
+    box-shadow: 0 0 4px #00ff00;
+}
+
+.rva-boton
+{
+    background: #00000000;
+    color: #00ff00;
+    border-color: #00ff00;
+    border-radius: 0px;
+}
+
+.rva-boton:focus
+{
+    background: #00000000;
+    color: #00ff00;
+    outline: none !important;
+    border-color: #00ff00;
+    box-shadow: 0 0 4px #00ff00;
+}
+
+.rva-boton:hover, .rva-boton:active
+{
+    background: #00ff00 !important;
+    color: #000000 !important;
+    outline: none !important;
+    border-color: #00ff00 !important;
+    box-shadow: 0 0 4px #00ff00 !important;
+}
+
+.rva-imagen
+{
+    box-shadow: 0 0 8px #00ff00;
+}
+
+.rva-icono
+{
+    filter: drop-shadow(0 0 16px #00ff00);
+}

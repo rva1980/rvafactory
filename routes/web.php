@@ -11,6 +11,13 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/welcome', function () {
     return view('welcome');
 });
+
+Route::get('/', 'InicioController@show');
+Route::get('/inicio/{color?}', 'InicioController@show');
+Route::get('/portfolio/{color?}', 'PortfolioController@show');
+Route::get('/curriculum/{color?}', 'CurriculumController@show');
+Route::get('/contacto/{color?}', 'ContactoController@show');
+
