@@ -7,17 +7,12 @@ use Illuminate\Http\Request;
 class ContactoController extends Controller
 {
 
-    public function show($colorC = '')
+    public function show($color = '')
     {
         $paginaActual = 'contacto';
 
-        if ($colorC == '')
-        {
+        if ($color == '') {
             $color = $this->dameColorAleatorio();
-        }
-        else
-        {
-            $color = $colorC;
         }
         
         return view('contacto', [

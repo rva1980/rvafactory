@@ -9,8 +9,8 @@ class CurriculumController extends Controller
     public function show($color = '')
     {
         $paginaActual = 'curriculum';
-        if ($color == '')
-        {
+
+        if ($color == '') {
             $color = $this->dameColorAleatorio();
         }
         

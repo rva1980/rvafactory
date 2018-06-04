@@ -1,55 +1,55 @@
 .rva-fondo 
 {
     background-image: url("../images/fondor.png");
-    text-shadow: 0 0 16px #ff0000;
+    text-shadow: 0 0 16px rgb(255,0,0);
 }
 
 .rva-fondo a:hover, .rva-menu-activo, .rva-color
 {
-    color: #ff0000;
+    color: rgb(255,0,0);
 }
 
 .rva-input:focus
 {
-    background: #00000000;
-    color: #ffffff;
+    background: rgba(0,0,0,0);
+    color: rgb(255,255,255);
     outline: none !important;
-    border-color: #ff0000;
-    box-shadow: 0 0 4px #ff0000;
+    border-color: rgb(255,0,0);
+    box-shadow: 0 0 4px rgb(255,0,0);
 }
 
 .rva-boton
 {
-    background: #00000000;
-    color: #ff0000;
-    border-color: #ff0000;
+    background: rgba(0,0,0,0);
+    color: rgb(255,0,0);
+    border-color: rgb(255,0,0);
     border-radius: 0px;
 }
 
 .rva-boton:focus
 {
-    background: #00000000;
-    color: #ff0000;
+    background: rgba(0,0,0,0);
+    color: rgb(255,0,0);
     outline: none !important;
-    border-color: #ff0000;
-    box-shadow: 0 0 4px #ff0000;
+    border-color: rgb(255,0,0);
+    box-shadow: 0 0 4px rgb(255,0,0);
 }
 
 .rva-boton:hover, .rva-boton:active
 {
-    background: #ff0000 !important;
-    color: #000000 !important;
+    background: rgb(255,0,0) !important;
+    color: rgb(0,0,0) !important;
     outline: none !important;
-    border-color: #ff0000 !important;
-    box-shadow: 0 0 4px #ff0000 !important;
+    border-color: rgb(255,0,0) !important;
+    box-shadow: 0 0 4px rgb(255,0,0) !important;
 }
 
 .rva-imagen
 {
-    box-shadow: 0 0 8px #ff0000;
+    box-shadow: 0 0 8px rgb(255,0,0);
 }
 
 .rva-icono
 {
-    filter: drop-shadow(0 0 16px #ff0000);
+    filter: drop-shadow(0 0 16px rgb(255,0,0));
 }

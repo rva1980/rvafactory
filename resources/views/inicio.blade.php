@@ -6,7 +6,7 @@
             <div class="col-lg-6">
                 <h2 class="rva-color"><strong>¡HOLA MUNDO!</strong></h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget consectetur nisl. Aliquam eget libero finibus, fermentum ligula non, egestas justo. Phasellus tempus enim vitae mattis rutrum. Curabitur aliquam odio eros, non finibus ex finibus a. Duis pellentesque feugiat vulputate. In nec ipsum in sapien eleifend blandit sed sit amet est. Proin vitae hendrerit tellus. Integer tincidunt lectus sit amet eros mollis lobortis. Pellentesque suscipit lectus sed purus pharetra placerat. Vestibulum nec feugiat ante. Sed at semper eros, in porttitor dui. Sed dignissim suscipit venenatis. Mauris non commodo diam.
+                    Soy Rubén Vítores Alarcón. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget consectetur nisl. Aliquam eget libero finibus, fermentum ligula non, egestas justo. Phasellus tempus enim vitae mattis rutrum. Curabitur aliquam odio eros, non finibus ex finibus a. Duis pellentesque feugiat vulputate. In nec ipsum in sapien eleifend blandit sed sit amet est. Proin vitae hendrerit tellus. Integer tincidunt lectus sit amet eros mollis lobortis. Pellentesque suscipit lectus sed purus pharetra placerat. Vestibulum nec feugiat ante. Sed at semper eros, in porttitor dui. Sed dignissim suscipit venenatis. Mauris non commodo diam.
                 </p>
             </div>
             <div class="col-lg-6">

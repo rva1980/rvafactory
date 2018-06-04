@@ -10,8 +10,7 @@ class InicioController extends Controller
     {
         $paginaActual = 'inicio';
 
-        if ($color == '')
-        {
+        if ($color == '') {
             $color = $this->dameColorAleatorio();
         }
         
