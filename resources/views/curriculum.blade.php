@@ -8,35 +8,41 @@
                     <div class="col-lg-6">
                         <h2 class="rva-color"><strong>EXPERIENCIA</strong></h2>
                         @foreach ($experiencias as $experiencia)
-                            <ul class="list-unstyled">
-                                <li class="rva-color"><i class="fas fa-briefcase rva-icono"></i> {{ $experiencia['periodo'] }}</li>
-                                <li>{{ $experiencia['empresa'] }}</li>
-                                <li>
-                                    {{ $experiencia['puesto'] }}
-                                    @if ($experiencia['descripcion'] != '')
-                                        <a data-toggle="collapse" href="#collapse{{ $experiencia['codigo'] }}" role="button" aria-expanded="false" aria-controls="collapse"><i class="far fa-plus-square rva-color rva-icono" data-fa-i2svg=""></i></a></li>
-                                        <li class="collapse rva-color" id="collapse{{ $experiencia['codigo'] }}">
-                                            {{ $experiencia['descripcion'] }}
+                            @if ($experiencia['visible'])
+                                <ul class="list-unstyled">
+                                    <li class="rva-color"><i class="fas fa-briefcase rva-icono"></i> {{ $experiencia['periodo'] }}</li>
+                                    @if ($experiencia['empresa'] != '')
+                                        <li>{{ $experiencia['empresa'] }}</li>
                                     @endif
-                                </li>
-                            </ul>
+                                    <li>
+                                        {{ $experiencia['puesto'] }}
+                                        @if ($experiencia['descripcion'] != '')
+                                            <a data-toggle="collapse" href="#collapse{{ $experiencia['codigo'] }}" role="button" aria-expanded="false" aria-controls="collapse"><i class="far fa-plus-square rva-color rva-icono" data-fa-i2svg=""></i></a></li>
+                                            <li class="collapse rva-color" id="collapse{{ $experiencia['codigo'] }}">
+                                                {{ $experiencia['descripcion'] }}
+                                        @endif
+                                    </li>
+                                </ul>
+                            @endif
                         @endforeach
                     </div>
                     <div class="col-lg-6">
                         <h2 class="rva-color"><strong>FORMACIÓN</strong></h2>
                         @foreach ($formaciones as $formacion)
-                            <ul class="list-unstyled">
-                                <li class="rva-color"><i class="fas fa-graduation-cap rva-icono"></i> {{ $formacion['periodo'] }}</li>
-                                <li>{{ $formacion['centro'] }}</li>
-                                <li>
-                                    {{ $formacion['titulo'] }}
-                                    @if ($formacion['descripcion'] != '')
-                                        <a data-toggle="collapse" href="#collapse{{ $formacion['codigo'] }}" role="button" aria-expanded="false" aria-controls="collapse"><i class="far fa-plus-square rva-color rva-icono" data-fa-i2svg=""></i></a></li>
-                                        <li class="collapse rva-color" id="collapse{{ $formacion['codigo'] }}">
-                                        {{ $formacion['descripcion'] }}
-                                    @endif
-                                </li>
-                            </ul>
+                            @if ($formacion['visible'])
+                                <ul class="list-unstyled">
+                                    <li class="rva-color"><i class="fas fa-graduation-cap rva-icono"></i> {{ $formacion['periodo'] }}</li>
+                                    <li>{{ $formacion['centro'] }}</li>
+                                    <li>
+                                        {{ $formacion['titulo'] }}
+                                        @if ($formacion['descripcion'] != '')
+                                            <a data-toggle="collapse" href="#collapse{{ $formacion['codigo'] }}" role="button" aria-expanded="false" aria-controls="collapse"><i class="far fa-plus-square rva-color rva-icono" data-fa-i2svg=""></i></a></li>
+                                            <li class="collapse rva-color" id="collapse{{ $formacion['codigo'] }}">
+                                            {{ $formacion['descripcion'] }}
+                                        @endif
+                                    </li>
+                                </ul>
+                            @endif
                         @endforeach
                     </div>
                 </div>

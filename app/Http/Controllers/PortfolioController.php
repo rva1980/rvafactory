@@ -16,22 +16,24 @@ class PortfolioController extends Controller
         
         $proyectos = array(
             array(
-                'codigo' => 'Pro01',
+                'codigo' => 'Pro05',
                 'grupo' => 'DiseñoGrafico',
                 'nombre' => 'PAGO GARANTIZADO',
                 'tipo' => 'Diseño de logotipo',
                 'imagen' => 'LogoPagoGarantizado.png',
-                'descripcion' => 'Descripción de prueba',
-                'link' => ''
+                'descripcion' => 'Imagen corporativa para empresa de gestión de cobros.',
+                'link' => '',
+                'visible' => true
             ),
             array(
-                'codigo' => 'Pro02',
+                'codigo' => 'Pro04',
                 'grupo' => 'DesarrolloWeb',
                 'nombre' => 'CARABANCHEL LIGA SUPREME',
                 'tipo' => 'Desarrollo web',
                 'imagen' => 'WebCarabanchelLigaSupreme.png',
-                'descripcion' => 'Aplicación para comunidad de fútbol fantasy en la que registrar estadísticas, histórico de clasificaciones, etc. Desarrollada en php, con el framework Laravel y base de datos MySQL.',
-                'link' => 'http://carabanchelligasupreme.rvafactory.com'
+                'descripcion' => 'Aplicación para comunidad de fútbol fantasy en la que registrar estadísticas, histórico de clasificaciones, etc. Desarrollada en PHP, con el framework LARAVEL y base de datos MYSQL.',
+                'link' => 'http://carabanchelligasupreme.rvafactory.com',
+                'visible' => true
             ),
             array(
                 'codigo' => 'Pro03',
@@ -39,26 +41,29 @@ class PortfolioController extends Controller
                 'nombre' => 'MROJO ARCHITECTURE',
                 'tipo' => 'Desarrollo web',
                 'imagen' => 'WebMarcosRojo.png',
-                'descripcion' => 'Descripción de prueba',
-                'link' => 'http://marcosrojo.com/'
+                'descripcion' => 'Aplicación web personal para el arquitecto Marcos García Rojo. Desarrollada en PHP con el framework SIMPLE MVC FRAMEWORK (actualmente NOVA FRAMEWORK) y base de datos MYSQL.',
+                'link' => 'http://marcosrojo.com/',
+                'visible' => true
             ),
             array(
-                'codigo' => 'Pro04',
+                'codigo' => 'Pro02',
                 'grupo' => 'DiseñoGrafico',
                 'nombre' => 'MUÑOZA ROCK',
                 'tipo' => 'Diseño de cartelería',
                 'imagen' => 'CartelMunozaRock.png',
-                'descripcion' => 'Descripción de prueba',
-                'link' => ''
+                'descripcion' => 'Cartel para varias de las ediciones del festival Muñoza Rock.',
+                'link' => '',
+                'visible' => true
             ),
             array(
-                'codigo' => 'Pro05',
+                'codigo' => 'Pro01',
                 'grupo' => 'DesarrolloWeb',
                 'nombre' => 'E.I. SAN VICENTE DE PAÚL',
                 'tipo' => 'Desarrollo web',
                 'imagen' => 'WebEscuelaInfantilSanVicente.png',
-                'descripcion' => 'Descripción de prueba',
-                'link' => 'http://escuelainfantilsanvicente.com'
+                'descripcion' => 'Aplicación para escuela de educación infantil. Desarrollada en HTML/CSS/JAVASCRIPT y complementada con el gestor de contenidos MONSTRA.',
+                'link' => 'http://escuelainfantilsanvicente.com',
+                'visible' => true
             )
             
         );

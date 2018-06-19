@@ -6,13 +6,19 @@
             <div class="col-lg-6">
                 <h2 class="rva-color"><strong>¡HOLA MUNDO!</strong></h2>
                 <p>
-                    Soy Rubén Vítores Alarcón. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget consectetur nisl. Aliquam eget libero finibus, fermentum ligula non, egestas justo. Phasellus tempus enim vitae mattis rutrum. Curabitur aliquam odio eros, non finibus ex finibus a. Duis pellentesque feugiat vulputate. In nec ipsum in sapien eleifend blandit sed sit amet est. Proin vitae hendrerit tellus. Integer tincidunt lectus sit amet eros mollis lobortis. Pellentesque suscipit lectus sed purus pharetra placerat. Vestibulum nec feugiat ante. Sed at semper eros, in porttitor dui. Sed dignissim suscipit venenatis. Mauris non commodo diam.
+                    Soy Rubén Vítores Alarcón, desarrollador web y diseñador gráfico.
+                </p>
+                <p>
+                    Aunque mi formación es de Arquitecto Técnico, me apasiona la programación y el diseño. Hace unos años, debido a circunstancias labolares complicadas en el sector de la construcción, decidí reorientar mi carrera profesional y enfocar todos mis esfuerzos en reciclarme, mediante cursos y en gran parte de forma autodidacta aprovechando mi buena capacidad de aprendizaje. Soy una persona perfeccionista a la que le gusta sumergirse en el código cuidando todos los detalles y controlando cada elemento del diseño, sin dejar nada al azar y siempre intentando que la experiencia sea lo más agradable posible para el usuario.
                 </p>
             </div>
             <div class="col-lg-6">
                 <p>
-                    Mauris lacinia mollis augue et ultricies. Praesent nisl risus, blandit sit amet ipsum bibendum, convallis egestas augue. Etiam eget lorem sed nunc pellentesque dapibus eget quis sem. Morbi vel lorem diam. Donec semper, ante mattis faucibus gravida, ligula erat scelerisque erat, ut feugiat est mi id sem. Donec sem neque, mattis vitae aliquet interdum, facilisis eu dolor. Nullam viverra nunc eget sem auctor congue. Sed venenatis sapien dolor. Cras viverra interdum sapien, lacinia dignissim lorem. Vivamus id venenatis quam. Pellentesque tincidunt est id congue elementum. Sed mollis gravida consectetur. Aliquam dolor felis, faucibus vitae efficitur id, scelerisque aliquet urna. Vivamus varius dui sit amet enim maximus lacinia sed vel ex.
-                </p> 
+                    Actualmente trabajo de manera independiente buscando nuevos proyectos en los que poder volcar mi conocimiento y experiencia. Con el fin de poder seguir aprendiendo y creciendo como profesional.
+                </p>
+                <p>
+                    Y de paso... ganarme la vida con ello.
+                </p>
             </div>
         </div>
     </div>
