@@ -9,10 +9,10 @@
                     Aquí puedes ver una selección de algunos de los trabajos que he realizado.
                 </p>
                 <p>
-                    <a class="btn btn-primary rva-boton" data-toggle="collapse" href=".GrupoDiseñoGrafico" role="button" aria-expanded="false" aria-controls="collapse"><i class="far fa-check-square rva-icono" data-fa-i4svg=""></i> Diseño Gráfico</a>
+                    <a class="btn btn-primary rva-boton" data-toggle="collapse" href=".GrupoDesarrolloWeb" role="button" aria-expanded="false" aria-controls="collapse"><i class="far fa-check-square rva-icono" data-fa-i4svg=""></i> Desarrollo Web</a>
                 </p>
                 <p>
-                    <a class="btn btn-primary rva-boton" data-toggle="collapse" href=".GrupoDesarrolloWeb" role="button" aria-expanded="false" aria-controls="collapse"><i class="far fa-check-square rva-icono" data-fa-i4svg=""></i> Desarrollo Web</a>
+                    <a class="btn btn-primary rva-boton" data-toggle="collapse" href=".GrupoDiseñoGrafico" role="button" aria-expanded="false" aria-controls="collapse"><i class="far fa-check-square rva-icono" data-fa-i4svg=""></i> Diseño Gráfico</a>
                 </p>
             </div>
             @foreach ($proyectos as $proyecto)

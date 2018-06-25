@@ -21,3 +21,20 @@ Route::get('/portfolio/{color?}', 'PortfolioController@show');
 Route::get('/curriculum/{color?}', 'CurriculumController@show');
 Route::get('/contacto/{color?}', 'ContactoController@show');
 
+Route::post('/contacto/{color?}', 'ContactoController@enviarFormulario');
+
+Route::get('/enviar', function () {
+
+    $data = array(
+        'name' =>"Prueba",
+    );
+
+    Mail::send('email', $data, function($mensaje) {
+        $mensaje->from('rva1980@gmail.com', 'RRR');
+
+        $mensaje->to('ruben@rvafactory.com')->subject('Email de prueba');
+    });
+
+    return "Email enviado correctamente";
+});
+

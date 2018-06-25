@@ -23,7 +23,7 @@ class PortfolioController extends Controller
                 'imagen' => 'LogoPagoGarantizado.png',
                 'descripcion' => 'Imagen corporativa para empresa de gestión de cobros.',
                 'link' => '',
-                'visible' => true
+                'visible' => false
             ),
             array(
                 'codigo' => 'Pro04',
