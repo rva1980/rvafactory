@@ -44,12 +44,8 @@ class CurriculumController extends Controller
                 'nivel' => 2
             ),
             array(
-                'nombre' => 'VB.Net',
+                'nombre' => '.Net',
                 'nivel' => 4
-            ),
-            array(
-                'nombre' => 'C#.Net',
-                'nivel' => 3
             ),
             array(
                 'nombre' => 'MVC',
@@ -64,13 +60,14 @@ class CurriculumController extends Controller
                 'nivel' => 3
             ),
             array(
-                'nombre' => 'AutoCAD',
-                'nivel' => 5
-            ),
-            array(
                 'nombre' => 'Photoshop',
                 'nivel' => 4
+            ),
+            array(
+                'nombre' => 'AutoCAD',
+                'nivel' => 5
             )
+            
         );
 
         $idiomas = array(
@@ -98,7 +95,7 @@ class CurriculumController extends Controller
                 'periodo' => 'Sep.2015 - Jun.2018',
                 'empresa' => 'BYG SOLUCIONES',
                 'puesto' => 'Consultor',
-                'descripcion' => '',
+                'descripcion' => 'Desarrollo de soluciones informáticas para gestión empresarial mediante aplicaciones web como de escritorio. Implantación del software de gestión AHORA FREEWARE ERP|CRM y su personalización según las necesidades de cada empresa. Herramientas y tecnologías utilizadas: VISUAL STUDIO, SQL SERVER, CRYSTAL REPORTS, ASP.NET, VB.NET, C#, JOOMLA.',
                 'visible' => true
             ),
             array(
@@ -106,13 +103,13 @@ class CurriculumController extends Controller
                 'periodo' => 'Ene.2010 - Sep.2015',
                 'empresa' => '',
                 'puesto' => 'Ejercicio Libre',
-                'descripcion' => 'Realización de diversos encargos a nivel particular: Delineación de planos, Diseño de carteles, logotipos, etc., desarrollo de aplicaciones web, profesor particular de Dibujo Técnico, matemáticas, física y química.',
+                'descripcion' => 'Realización de diversos encargos a nivel particular: Delineación de planos. Diseño de carteles, logotipos, etc. Desarrollo de aplicaciones web. Profesor particular de dibujo técnico, matemáticas, física y química.',
                 'visible' => true
             ),
             array(
                 'codigo' => 'Exp10',
                 'periodo' => 'Oct.2014 - Nov.2014',
-                'empresa' => 'SYMBOLIC INMUEBLES',
+                'empresa' => 'SYMBOLIC INMUEBLES S.L.U.',
                 'puesto' => 'Asesor Inmobiliario',
                 'descripcion' => '',
                 'visible' => true
@@ -122,23 +119,23 @@ class CurriculumController extends Controller
                 'periodo' => 'Jul.2012 - Ago.2012',
                 'empresa' => 'JERSEY ENGLISH SCHOOL',
                 'puesto' => 'Profesor',
-                'descripcion' => 'Profesor de Matemáticas, Física y Química en la academia JERSEY ENGLISH SCHOOL para alumnos de E.S.O. y Bachillerato.',
+                'descripcion' => 'Profesor de Matemáticas, Física y Química en academia para alumnos de E.S.O. y Bachillerato.',
                 'visible' => true
             ),
             array(
                 'codigo' => 'Exp08',
-                'periodo' => 'Jun.2011 - Sep.2011',
-                'empresa' => 'ACCIONA INFRAESTRUCTURAS',
+                'periodo' => 'Jun.2011 - Jul.2011',
+                'empresa' => 'ACCIONA INFRAESTRUCTURAS S.A.',
                 'puesto' => 'Ayudante de Producción',
                 'descripcion' => 'Prácticas de Formación del Certificado de Profesionalidad de Representación de Proyectos de Obra Civil en la obra "Ampliación de la Estación de Tratamiento de Aguas Potables de Valmayor" (P.E.M. 60.000.000 €). Colaboración con el Jefe de Producción y con el Responsable de Calidad y Medio Ambiente.',
                 'visible' => true
             ),
             array(
                 'codigo' => 'Exp07',
-                'periodo' => 'Jun.2007 - Ago.2009',
-                'empresa' => 'LENA CONSTRUCCIONES',
+                'periodo' => 'Jul.2007 - Mar.2009',
+                'empresa' => 'LENA CONSTRUCCIONES S.A. NOZAR GRUPO INMOBILIARIO',
                 'puesto' => 'Jefe de Producción',
-                'descripcion' => 'Jefe de Producción en la obra "140 viviendas, el Bercial, Getafe" (P.E.M. 16.000.000 €). Estrecha colaboración con el Jefe de Obra. Control de la producción. Certificaciones de subcontratístas. Seguimiento del Plan de calidad y Medio Ambiente. Comparativos para contratación. Pedidos.',
+                'descripcion' => 'Jefe de Producción en la obra "140 viviendas, el Bercial, Getafe" (P.E.M. 16.000.000 €). Estrecha colaboración con el Jefe de Obra. Control de la producción. Certificaciones de subcontratistas. Seguimiento del Plan de Calidad y Medio Ambiente. Comparativos para contratación. Pedidos.',
                 'visible' => true
             ),
             array(
@@ -146,13 +143,13 @@ class CurriculumController extends Controller
                 'periodo' => 'Oct.2006 - May.2007',
                 'empresa' => 'ESTUDIO GONZALO CASTIÑEIRA',
                 'puesto' => 'Delineante Proyectista',
-                'descripcion' => 'Desarrollo de proyectos de edificación y reformas. Dibujo de planos en AutoCAD. Elaboración de presupuestos con PRESTO.',
+                'descripcion' => 'Desarrollo de proyectos de edificación y reformas. Delineación de planos con AutoCAD. Elaboración de presupuestos con PRESTO.',
                 'visible' => true
             ),
             array(
                 'codigo' => 'Exp05',
                 'periodo' => 'Abr.2006 - Sep.2006',
-                'empresa' => 'PROSAVAR S.L. Arquitectos e Ingenieros',
+                'empresa' => 'PROSAVAR S.L. ARQUITECTOS E INGENIEROS',
                 'puesto' => 'Delineante Proyectista',
                 'descripcion' => 'Desarrollo de proyectos de edificación y estudio de obras. Delineación de planos con AutoCAD. Elaboración de presupuestos con PRESTO. Toma de datos y mediciones en obra.',
                 'visible' => true
@@ -160,15 +157,15 @@ class CurriculumController extends Controller
             array(
                 'codigo' => 'Exp04',
                 'periodo' => 'Sep.2001',
-                'empresa' => 'D.T.M. Desarrollo Técnicos y Mantenimiento',
+                'empresa' => 'D.T.M. DESARROLLO TÉCNICOS Y MANTENIMIENTO',
                 'puesto' => 'Formador',
                 'descripcion' => 'Profesor de AutoCAD 2000 para cursos de empresa.',
                 'visible' => true
             ),
             array(
                 'codigo' => 'Exp03',
-                'periodo' => 'Oct.2006 - May.2007',
-                'empresa' => 'BEGUERÍA Y BORDA Consultores Asociados S.L.',
+                'periodo' => 'Jul.2001 - Ago.2001',
+                'empresa' => 'BEGUERÍA Y BORDA CONSULTORES ASOCIADOS S.L.',
                 'puesto' => 'Delineante',
                 'descripcion' => 'Colaboración en el desarrollo del módulo SENMUT ALLPLAN para el programa SENMUT EXPERTO, aplicación informática de gestión documental de Seguridad y Salud para obras de edificación u obra civil.',
                 'visible' => true
@@ -176,7 +173,7 @@ class CurriculumController extends Controller
             array(
                 'codigo' => 'Exp02',
                 'periodo' => 'Ago.2000 - Sep.2000',
-                'empresa' => 'M.C.L. Managing Change Limited. London',
+                'empresa' => 'M.C.L. MANAGING CHANGE LIMITED. LONDON',
                 'puesto' => 'Delineante Proyectista',
                 'descripcion' => 'Eurobeca de la Obra Social de Caja de Madrid. Programa de intercambio con prácticas de empresa en Londres. Colaboración en el desarrollo de proyectos de edificación y reformas de edificios singulares.',
                 'visible' => true
@@ -184,7 +181,7 @@ class CurriculumController extends Controller
             array(
                 'codigo' => 'Exp01',
                 'periodo' => 'Mar.2000 - Jun.2000',
-                'empresa' => 'R.E.N.F.E. Departamento de Arquitectura de Estaciones Comerciales',
+                'empresa' => 'R.E.N.F.E. DEPARTAMENTO DE ARQUITECTURA DE ESTACIONES COMERCIALES',
                 'puesto' => 'Delineante Proyectista',
                 'descripcion' => 'Prácticas de formación del Ciclo Formativo de Grado Superior de Desarrollo y Aplicación de Proyectos de Construcción. Colaboración en el desarrollo de proyectos de reforma y ampliación de estaciones de ferrocarril.',
                 'visible' => true
@@ -197,7 +194,7 @@ class CurriculumController extends Controller
                 'periodo' => 'Abr.2015 - Sep.2015',
                 'centro' => 'MICROFORUM',
                 'titulo' => 'Desarrollador de Sitios Web Dinámicos',
-                'descripcion' => 'Curso de 575 horas.',
+                'descripcion' => 'Curso de 575 horas. Programador especialista en VISUAL STUDIO 2013 y .NET Framework 4: SQL SERVER 2014, ADO.NET y LINQ, desarrollo de aplicaciones web con ASP.NET MVC 2013, aplicando estilos con CSS3, JQUERY, PHP y HTML. Desarrollo web con JAVA: Lenguaje de programación JAVA, SERVLETS, conectividad con base de datos, JAVA SERVER PAGES, STRUTS, JAVA SERVER FACES, AJAX, HIBERNATE, SPRING, desarrollo de aplicaciones para ANDROID. Programación web en entorno cliente y en entorno servidor.',
                 'visible' => true
             ),
             array(
