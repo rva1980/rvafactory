@@ -6,7 +6,7 @@
             <div class="col-lg-4 col-md-6">
                 <h2 class="rva-color"><strong>MIS PROYECTOS</strong></h2>
                 <p>
-                    Aquí puedes ver una selección de algunos de los trabajos que he realizado.
+                    Aquí puedes ver una selección de algunos de los trabajos que he realizado.<span class="rva-parpadeo">█</span>
                 </p>
                 <p>
                     <a class="btn btn-primary rva-boton" data-toggle="collapse" href=".GrupoDesarrolloWeb" role="button" aria-expanded="false" aria-controls="collapse"><i class="far fa-check-square rva-icono" data-fa-i4svg=""></i> Desarrollo Web</a>
@@ -18,7 +18,9 @@
             @foreach ($proyectos as $proyecto)
                 @if ($proyecto['visible'])
                     <div class="col-lg-4 col-md-6 Grupo{{ $proyecto['grupo'] }} collapse show">
-                        <img src="/images/portfolio/{{ $proyecto['imagen'] }}" class="img-fluid rounded mb-2 rva-imagen" alt="{{ $proyecto['nombre'] }}">
+                        <a data-toggle="collapse" href="#collapse{{ $proyecto['codigo'] }}" role="button" aria-expanded="false" aria-controls="collapse">
+                            <img src="/images/portfolio/{{ $proyecto['imagen'] }}" class="img-fluid rounded mb-2 rva-imagen" alt="{{ $proyecto['nombre'] }}">
+                        </a>
                         <ul class="list-unstyled">
                             <li class="rva-color"><i class="fas fa-paint-brush rva-icono"></i> {{ $proyecto['nombre'] }}</li>
                             <li>

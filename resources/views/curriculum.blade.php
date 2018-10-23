@@ -76,8 +76,8 @@
                         </li>
                     @endforeach
                 </ul>
-                <h2 class="rva-color"><strong>AFICIONES</strong></h2>
                 <!--
+                <h2 class="rva-color"><strong>AFICIONES</strong></h2>
                 <div class="form-group text-right">
                     <a class="btn btn-primary rva-boton" href="#" role="button"><i class="fas fa-file-alt rva-icono"></i> Descargar</a>
                 </div>

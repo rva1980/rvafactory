@@ -22,13 +22,13 @@
                     <p>
                         Si quieres realizar cualquier consulta puedes hacerlo rellenando este formulario de contacto o, si lo prefieres, puedes contactar conmigo directamente mediante el correo electrónico o el teléfono que hay a continuación.
                     </p>
-                    <p>
-                        En cualquiera de los casos, ¡muchas gracias!, intentaré contestarte lo antes posible.
-                    </p>
                     <ul class="fa-ul">
                         <li><span class="fa-li"><i class="fas fa-envelope fa-fw rva-color rva-icono"></i></span>ruben@rvafactory.com</li>
                         <li><span class="fa-li"><i class="fas fa-phone fa-fw rva-color rva-icono"></i></span>(+34) 658 55 24 23</li>
                     </ul>
+                    <p>
+                        En cualquiera de los casos, ¡muchas gracias!, intentaré contestarte lo antes posible.<span class="rva-parpadeo">█</span>
+                    </p>
                 </div>
                 <div class="col-lg-6">
                     
